@@ -3,9 +3,142 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,300;0,600;0,800;1,600&family=Barlow:wght@400;500&display=swap" rel="stylesheet">
+  
+  <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="src/style.css">
   <title>FootyRacs</title>
 </head>
 <body>
-    <h1>FootyRacs</h1>
+    <div class="ticker" aria-hidden="true">
+      <div class="ticker-track">
+        <span>Free shipping on orders over ₹999</span>
+        <span>New drop: Monaco GP x Champions League collab</span>
+        <span>Limited edition — Pit Lane jersey</span>
+        <span>Use code TATTU10 for 10% off</span>
+        <span>Free shipping on orders over ₹999</span>
+        <span>New drop: Monaco GP x Champions League collab</span>
+        <span>Limited edition — Pit Lane jersey</span>
+        <span>Use code TATTU10 for 10% off</span>
+    </div>
+  </div>
+
+
+
+
+  <nav id="navbar">
+
+
+    <a href="#" class="logo" aria-label="FootyRacs Logo">
+      <div class="logo-icon">
+        <img src="public/soccer-ball.png" alt="">
+        <div class="logo-text">
+          <span class="logo-primary">Footy<em>Tattu</em></span>
+          <span class="logo-sub">Football x Formula 1</span>
+        </div>
+      </div>
+    </a>
+
+
+
+
+
+
+
+    <ul class="nav-links">
+
+      <li><a href="#" class="active">Home</a></li>
+
+      <li class="has-dropdown">
+        <a href="#">Shop <span class="badge">New</span></a>
+        <div class="dropdown">
+          <a href="#"><span class="icon">⚽</span> Football Kits</a>
+          <a href="#"><span class="icon">🏎</span> F1 Collection</a>
+          <a href="#"><span class="icon">🔀</span> Collab Drops</a>
+          <hr>
+          <a href="#"><span class="icon">🔥</span> Bestsellers</a>
+          <a href="#"><span class="icon">✦</span> Limited Edition</a>
+        </div>
+      </li>
+
+      <li class="has-dropdown">
+        <a href="#">Teams</a>
+        <div class="dropdown">
+          <a href="#"><span class="icon">🏟</span> Premier League</a>
+          <a href="#"><span class="icon">🌍</span> La Liga / Serie A</a>
+          <a href="#"><span class="icon">🏁</span> F1 Teams</a>
+          <hr>
+          <a href="#"><span class="icon">🌐</span> View All</a>
+        </div>
+      </li>
+
+      <li><a href="#">Lookbook</a></li>
+
+      <li><a href="#">About</a></li>
+
+
+    </ul>
+
+
+
+
+
+    <div class="nav-actions">
+
+
+      <button class="icon-btn" aria-label="Search" title="Search">
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </button>
+
+      <button class="icon-btn" aria-label="Account" title="My Account">
+        <i class="fa-solid fa-user"></i>
+      </button>
+
+       <button class="icon-btn" aria-label="Wishlist" title="Wishlist">
+        <i class="fa-solid fa-heart"></i>
+      </button>
+
+       <button class="icon-btn" aria-label="Cart (2 items)" title="Cart">
+        <i class="fa-solid fa-shopping-cart"></i>
+      </button>
+      
+      <button class="cta-btn">Shop Now</button>
+
+       <button class="hamburger" id="hamburgerBtn" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+
+    </div>
+
+
+    </div>
+
+  </nav>
+
+
+  <div class="mobile-menu" id="mobileMenu" role="navigation" aria-label="Mobile navigation">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Football Kits</a></li>
+      <li><a href="#">F1 Collection</a></li>
+      <li><a href="#">Collab Drops ✦</a></li>
+      <li><a href="#">Bestsellers</a></li>
+      <li><a href="#">Limited Edition</a></li>
+      <li><a href="#">Lookbook</a></li>
+      <li><a href="#">About</a></li>
+    </ul>
+  </div>
+
+
 </body>
 </html>
